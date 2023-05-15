@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Profile from './Profile'
+import Hooks from './hooks'
 
 function App() {
   return (
@@ -15,8 +17,12 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+
+         Class Component
         </a>
+
+      <Hooks/>
+        <Profile text={{name:'Nouman'}}  data="Proflie Data"/>
       </header>
     </div>
   );
